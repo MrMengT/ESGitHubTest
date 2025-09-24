@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TEST_PUSH2GIT'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TEST_PUSH2GIT'
+  }
+}
+define service ZUI_TEST_PUSH2GIT_O4 provider contracts odata_v4_ui {
+  expose ZC_TEST_PUSH2GIT;
+}

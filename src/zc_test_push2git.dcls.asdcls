@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_TEST_PUSH2GIT'
+@MappingRole: true
+define role ZC_TEST_PUSH2GIT {
+  grant select on ZC_TEST_PUSH2GIT
+  where INHERITING CONDITIONS FROM ENTITY ZR_TEST_PUSH2GIT REPLACING { ROOT WITH _BaseEntity };
+}

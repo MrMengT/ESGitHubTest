@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_TEST_PUSH2GIT'
+@MappingRole: true
+define role ZR_TEST_PUSH2GIT {
+  grant select on ZR_TEST_PUSH2GIT
+  where TRUE;
+}
